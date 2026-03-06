@@ -221,6 +221,15 @@
 
 				<key>clearCache</key>
 				<false/>
+
+				<key>tabSwitchReload</key>
+      			<false/>
+				
+				<key>preloadTabs</key>
+				<true/>
+				
+				<key>clearCacheOnTabSwitch</key>
+				<false/>
 				
 				<key>ApplyTo</key>
 				<array>
