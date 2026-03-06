@@ -216,9 +216,12 @@
 				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
 
-				<loadAllTabsOnStart>true</loadAllTabsOnStart>
-    			<keepTabsInMemory>true</keepTabsInMemory>
-   				<reloadOnTabChange>false</reloadOnTabChange>
+				<key>loadAllTabsOnStart</key>
+				<true/>
+    			<key>keepTabsInMemory</key>
+				<true/>
+   				<key>reloadOnTabChange</key>
+				<false/>
 				
 				<key>ApplyTo</key>
 				<array>
