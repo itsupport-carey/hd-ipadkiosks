@@ -207,6 +207,9 @@
 				<key>showLoadingProgress</key>
 				<true/>
 
+				<key>kp_retainCookiesOn</key>
+				<string>checkin.veracross.au</string>
+
 				<key>idleTime</key>
 				<integer>10800</integer>
 
