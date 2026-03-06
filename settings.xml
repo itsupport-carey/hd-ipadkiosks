@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>kioskSettings_v2</key>
+		<array>
+
+			<!-- Primary settings to be applied to all kiosks -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>idleTime</key>
+				<integer>60</integer>
+				
+				<key>customLinksEnabled</key>
+				<true/>
+				
+				<key>clLabel1</key>
+				<string>Catalogue</string>
+				
+				<key>clLink1</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>clLabel2</key>
+				<string>Literacy Pro!</string>
+				
+				<key>clLink2</key>
+				<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
+				
+				<key>sv_screenVideoEnabled</key>
+				<true/>
+				
+				<key>sv_url2MovieFile</key>
+				<string>screensavers</string>
+				
+				<key>kp_updateIntervalOfScreenSaverSlideShow</key>
+				<string>10</string>
+				
+			</dict>
+
+
+			<!-- Setting Overrides for iPads in "HDC-Sec-ReflectionKiosk" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+				
+				<key>showStatusBar</key>
+				<false/>
+				
+				<key>customLinksEnabled</key>
+				<true/>
+
+				<key>clLabel1</key>
+				<string>Sign-In/Out</string>
+				
+				<key>clLink1</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+				
+				<key>clLabel2</key>
+				<string>Broken Chromebook</string>
+				
+				<key>clLink2</key>
+				<string>https://form.jotform.com/260420992800857</string>
+
+				<key>idleTime</key>
+				<integer>10800</integer>
+
+				<key>clearCache</key>
+				<false/>
+
+				<key>kp_clearAppDataOnRelaunch</key>
+				<false/>
+
+				<key>kp_clearAppDataOnRelaunch</key>
+				<false/>
+
+				<key>showLoadingProgress</key>
+				<true/>
+
+				<key>allowAutoLock</key>
+				<true/>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>HDC-Sec-ReflectionKiosk</string>
+				</array>
+				
+				
+			</dict>
+
+			<!-- Setting Overrides for iPads in "HDC-Sec-SignInKiosk" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
+				
+				<key>showStatusBar</key>
+				<false/>
+				
+				<key>customLinksEnabled</key>
+				<true/>
+
+				<key>clLabel1</key>
+				<string>Check In/Out</string>
+				
+				<key>clLink1</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
+				
+				<key>clLabel2</key>
+				<string>Late to Class</string>
+				
+				<key>clLink2</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
+
+				<key>autofillingEnabled</key>
+				<true/>
+
+				<key>allowAutoLock</key>
+				<true/>
+
+				<key>idleTime</key>
+				<integer>10800</integer>
+
+				<key>kp_clearAppDataOnRelaunch</key>
+				<false/>
+				
+				<key>kp_retainCookiesOn</key>
+				<string>checkin.veracross.au</string>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>HDC-Sec-SignInKiosk</string>
+				</array>
+				
+			</dict>
+
+			<!-- Setting Overrides for iPads in "library" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>idleTime</key>
+				<integer>60</integer>
+				
+				<key>customLinksEnabled</key>
+				<true/>
+				
+				<key>clLabel1</key>
+				<string>Catalogue</string>
+				
+				<key>clLink1</key>
+				<string>http://library.carey.wa.edu.au/</string>
+				
+				<key>clLabel2</key>
+				<string>Literacy Pro!</string>
+				
+				<key>clLink2</key>
+				<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
+				
+				<key>sv_screenVideoEnabled</key>
+				<true/>
+				
+				<key>sv_url2MovieFile</key>
+				<string>screensavers</string>
+				
+				<key>kp_updateIntervalOfScreenSaverSlideShow</key>
+				<string>10</string>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>library</string>
+				</array>
+				
+			</dict>
+
+			<!-- Setting Overrides for iPads in "HDC-Prim-SignInKiosk" group -->
+			<dict>
+				
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
+				
+				<key>showStatusBar</key>
+				<false/>
+				
+				<key>customLinksEnabled</key>
+				<false/>
+
+				<key>autofillingEnabled</key>
+				<true/>
+
+				<key>allowAutoLock</key>
+				<true/>
+
+				<key>showLoadingProgress</key>
+				<true/>
+
+				<key>idleTime</key>
+				<integer>10800</integer>
+
+				<key>kp_clearAppDataOnRelaunch</key>
+				<false/>
+				
+				<key>kp_retainCookiesOn</key>
+				<string>checkin.veracross.au</string>
+				
+				<key>ApplyTo</key>
+				<array>
+					<string>HDC-Prim-SignInKiosk</string>
+				</array>
+				
+			</dict>
+
+		</array>
+	</dict>
+</plist>
