@@ -77,6 +77,9 @@
 				<key>showLoadingProgress</key>
 				<true/>
 
+				<key>clearCache</key>
+				<false/>
+
 				<key>allowAutoLock</key>
 				<true/>
 				
@@ -216,6 +219,8 @@
 				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
 
+				<key>clearCache</key>
+				<false/>
 				
 				<key>ApplyTo</key>
 				<array>
