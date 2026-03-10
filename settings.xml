@@ -113,7 +113,7 @@
 				<string>Late to Class</string>
 				
 				<key>clLink2</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
 
 				<key>autofillingEnabled</key>
 				<true/>
@@ -140,45 +140,6 @@
 				
 			</dict>
 
-			<!-- Setting Overrides for iPads in "library" group -->
-			<dict>
-				
-				<key>homePage</key>
-				<string>http://library.carey.wa.edu.au/</string>
-				
-				<key>idleTime</key>
-				<integer>60</integer>
-				
-				<key>customLinksEnabled</key>
-				<true/>
-				
-				<key>clLabel1</key>
-				<string>Catalogue</string>
-				
-				<key>clLink1</key>
-				<string>http://library.carey.wa.edu.au/</string>
-				
-				<key>clLabel2</key>
-				<string>Literacy Pro!</string>
-				
-				<key>clLink2</key>
-				<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
-				
-				<key>sv_screenVideoEnabled</key>
-				<true/>
-				
-				<key>sv_url2MovieFile</key>
-				<string>screensavers</string>
-				
-				<key>kp_updateIntervalOfScreenSaverSlideShow</key>
-				<string>10</string>
-				
-				<key>ApplyTo</key>
-				<array>
-					<string>library</string>
-				</array>
-				
-			</dict>
 
 			<!-- Setting Overrides for iPads in "HDC-Prim-SignInKiosk" group -->
 			<dict>
