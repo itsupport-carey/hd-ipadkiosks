@@ -57,7 +57,7 @@
 				<string>Sign-In/Out</string>
 				
 				<key>clLink1</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
 				
 				<key>clLabel2</key>
 				<string>Broken Chromebook</string>
