@@ -98,9 +98,12 @@
 				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
 				
 				<key>showStatusBar</key>
-				<false/>
+				<true/>
 				
 				<key>customLinksEnabled</key>
+				<true/>
+
+				<key>kp_showMultipleTabs</key>
 				<true/>
 
 				<key>clLabel1</key>
