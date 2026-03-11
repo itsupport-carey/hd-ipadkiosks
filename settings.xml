@@ -62,6 +62,9 @@
 				<false/>
 
 				<key>idleTime</key>
+				<integer>10800</integer>
+
+				<key>refreshTime</key>
 				<integer>600</integer>
 
 				<key>clearCache</key>
