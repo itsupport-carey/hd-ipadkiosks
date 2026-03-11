@@ -201,6 +201,12 @@
 				<key>idleTime</key>
 				<integer>10800</integer>
 
+				<key>settingsPassCode</key>
+				<string>6112</string>
+
+				<key>settingsShowOption</key>
+				<integer>2</integer>
+
 				<key>kp_clearAppDataOnRelaunch</key>
 				<false/>
 
