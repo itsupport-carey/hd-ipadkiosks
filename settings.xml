@@ -76,6 +76,12 @@
 				<key>allowAutoLock</key>
 				<true/>
 
+				<key>settingsPassCode</key>
+				<string>6112</string>
+
+				<key>settingsShowOption</key>
+				<integer>2</integer>
+
 				<!-- Link Settings -->
 
 				<key>homePage</key>
