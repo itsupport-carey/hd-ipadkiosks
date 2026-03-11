@@ -43,27 +43,14 @@
 
 			<!-- Setting Overrides for iPads in "HDC-Sec-ReflectionKiosk" group -->
 			<dict>
-				
-				<key>homePage</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+
+				<!-- Kiosk Settings -->
 				
 				<key>showStatusBar</key>
 				<false/>
 				
 				<key>customLinksEnabled</key>
 				<true/>
-
-				<key>clLabel1</key>
-				<string>Sign-In/Out</string>
-				
-				<key>clLink1</key>
-				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
-				
-				<key>clLabel2</key>
-				<string>Broken Chromebook</string>
-				
-				<key>clLink2</key>
-				<string>https://form.jotform.com/260420992800857</string>
 
 				<key>idleTime</key>
 				<integer>10800</integer>
@@ -79,6 +66,25 @@
 
 				<key>allowAutoLock</key>
 				<true/>
+
+				<!-- Link Settings -->
+
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+				
+				<key>clLabel1</key>
+				<string>Sign-In/Out</string>
+				
+				<key>clLink1</key>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdc-time-out</string>
+				
+				<key>clLabel2</key>
+				<string>Broken Chromebook</string>
+				
+				<key>clLink2</key>
+				<string>https://form.jotform.com/260420992800857</string>
+
+				<!-- Apply To Settings -->
 				
 				<key>ApplyTo</key>
 				<array>
@@ -90,9 +96,8 @@
 
 			<!-- Setting Overrides for iPads in "HDC-Sec-SignInKiosk" group -->
 			<dict>
-				
-				<key>homePage</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
+
+				<!-- Kiosk Settings -->
 				
 				<key>showStatusBar</key>
 				<false/>
@@ -106,23 +111,11 @@
 				<key>kp_showMultipleTabs</key>
 				<true/>
 
-				<key>clLabel1</key>
-				<string>Late Unexcused</string>
-				
-				<key>clLink1</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
-				
-				<key>clLabel2</key>
-				<string>Late Excused</string>
-				
-				<key>clLink2</key>
-				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ex</string>
-				
-				<key>clLabel3</key>
-				<string>Late to Class</string>
-				
-				<key>clLink3</key>
-				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
+				<key>showForwardIcon</key>
+				<false/>
+
+				<key>showBackIcon</key>
+				<false/>
 
 				<key>allowAutoLock</key>
 				<true/>
@@ -144,6 +137,31 @@
 
 				<key>showLoadingProgress</key>
 				<true/>
+
+				<!-- Link Settings -->
+				
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
+
+				<key>clLabel1</key>
+				<string>Late Unexcused</string>
+				
+				<key>clLink1</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
+				
+				<key>clLabel2</key>
+				<string>Late Excused</string>
+				
+				<key>clLink2</key>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ex</string>
+				
+				<key>clLabel3</key>
+				<string>Late to Class</string>
+				
+				<key>clLink3</key>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
+
+				<!-- Apply To Settings -->
 				
 				<key>ApplyTo</key>
 				<array>
@@ -155,9 +173,8 @@
 
 			<!-- Setting Overrides for iPads in "HDC-Prim-SignInKiosk" group -->
 			<dict>
-				
-				<key>homePage</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
+
+				<!-- Kiosk Settings -->
 				
 				<key>showStatusBar</key>
 				<false/>
@@ -165,23 +182,17 @@
 				<key>showHomeIcon</key>
 				<false/>
 				
+				<key>showForwardIcon</key>
+				<false/>
+
+				<key>showBackIcon</key>
+				<false/>
+				
 				<key>customLinksEnabled</key>
 				<true/>
 
 				<key>kp_showMultipleTabs</key>
 				<true/>
-
-				<key>clLabel1</key>
-				<string>Unexcused</string>
-				
-				<key>clLink1</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
-				
-				<key>clLabel2</key>
-				<string>Excused</string>
-				
-				<key>clLink2</key>
-				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcpr-la-ed</string>
 
 				<key>allowAutoLock</key>
 				<true/>
@@ -212,6 +223,25 @@
 
 				<key>clearCache</key>
 				<false/>
+
+				<!-- Link Settings -->
+
+				<key>homePage</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
+
+				<key>clLabel1</key>
+				<string>Unexcused</string>
+				
+				<key>clLink1</key>
+				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
+				
+				<key>clLabel2</key>
+				<string>Excused</string>
+				
+				<key>clLink2</key>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcpr-la-ed</string>
+
+				<!-- Apply To Settings -->
 				
 				<key>ApplyTo</key>
 				<array>
