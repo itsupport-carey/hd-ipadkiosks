@@ -96,6 +96,9 @@
 				
 				<key>showStatusBar</key>
 				<false/>
+
+				<key>showHomeIcon</key>
+				<false/>
 				
 				<key>customLinksEnabled</key>
 				<true/>
@@ -151,6 +154,9 @@
 				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-late-early</string>
 				
 				<key>showStatusBar</key>
+				<false/>
+
+				<key>showHomeIcon</key>
 				<false/>
 				
 				<key>customLinksEnabled</key>
