@@ -136,7 +136,7 @@
 				<false/>
 
 				<key>allowAutoLock</key>
-				<true/>
+				<false/>
 
 				<key>idleTime</key>
 				<integer>10800</integer>
@@ -150,7 +150,6 @@
 				<key>settingsShowingOption</key>
 				<integer>2</integer>
 				
-
 				<key>showLoadingProgress</key>
 				<true/>
 
@@ -211,7 +210,7 @@
 				<true/>
 
 				<key>allowAutoLock</key>
-				<true/>
+				<false/>
 
 				<key>clearCache</key>
 				<false/>
