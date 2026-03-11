@@ -82,7 +82,7 @@
 				<key>settingsPassCode</key>
 				<string>6112</string>
 
-				<key>settingsShowOption</key>
+				<key>settingsShowingOption</key>
 				<integer>2</integer>
 
 				<!-- Link Settings -->
@@ -147,11 +147,9 @@
 				<key>settingsPassCode</key>
 				<string>6112</string>
 
-				<key>settingsShowOption</key>
+				<key>settingsShowingOption</key>
 				<integer>2</integer>
 				
-				<key>kp_retainCookiesOn</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcsr-ltc; https://checkin.veracross.au/carey/kiosk/hdcsr-ex; https://checkin.veracross.au/carey/kiosk/hdcsr</string>
 
 				<key>showLoadingProgress</key>
 				<true/>
@@ -233,7 +231,7 @@
 				<key>settingsPassCode</key>
 				<string>6112</string>
 
-				<key>settingsShowOption</key>
+				<key>settingsShowingOption</key>
 				<integer>2</integer>
 
 				<key>kp_clearAppDataOnRelaunch</key>
