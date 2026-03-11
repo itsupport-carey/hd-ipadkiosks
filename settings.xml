@@ -77,9 +77,6 @@
 				<key>showLoadingProgress</key>
 				<true/>
 
-				<key>clearCache</key>
-				<false/>
-
 				<key>allowAutoLock</key>
 				<true/>
 				
@@ -118,9 +115,6 @@
 				<key>clLink2</key>
 				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
 
-				<key>autofillingEnabled</key>
-				<true/>
-
 				<key>allowAutoLock</key>
 				<true/>
 
@@ -156,6 +150,9 @@
 				<key>customLinksEnabled</key>
 				<true/>
 
+				<key>kp_showMultipleTabs</key>
+				<true/>
+
 				<key>clLabel1</key>
 				<string>Unexcused</string>
 				
@@ -166,16 +163,22 @@
 				<string>Excused</string>
 				
 				<key>clLink2</key>
-				<string>https://checkin.veracross.au/carey/kiosk/hdcpr-la-ed</string>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcpr-la-ed</string>
 
 				<key>allowAutoLock</key>
 				<true/>
+
+				<key>clearCache</key>
+				<false/>
+
+				<key>kp_clearAppDataOnRelaunch</key>
+				<false/>
 
 				<key>showLoadingProgress</key>
 				<true/>
 
 				<key>kp_retainCookiesOn</key>
-				<string>checkin.veracross.au</string>
+				<string>checkin.veracross.au/carey/kiosk/hdcpr-late-early; https://checkin.veracross.au/carey/kiosk/hdcpr-la-ed</string>
 
 				<key>idleTime</key>
 				<integer>10800</integer>
