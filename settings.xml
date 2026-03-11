@@ -104,15 +104,21 @@
 				<true/>
 
 				<key>clLabel1</key>
-				<string>Check In/Out</string>
+				<string>Late Unexcused</string>
 				
 				<key>clLink1</key>
 				<string>https://checkin.veracross.au/carey/kiosk/hdcsr</string>
 				
 				<key>clLabel2</key>
-				<string>Late to Class</string>
+				<string>Late Excused</string>
 				
 				<key>clLink2</key>
+				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ex</string>
+				
+				<key>clLabel3</key>
+				<string>Late to Class</string>
+				
+				<key>clLink3</key>
 				<string>kiosk://newTab?url=https://checkin.veracross.au/carey/kiosk/hdcsr-ltc</string>
 
 				<key>allowAutoLock</key>
