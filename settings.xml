@@ -52,6 +52,15 @@
 				<key>customLinksEnabled</key>
 				<true/>
 
+				<key>showHomeIcon</key>
+				<false/>
+
+				<key>showForwardIcon</key>
+				<false/>
+
+				<key>showBackIcon</key>
+				<false/>
+
 				<key>idleTime</key>
 				<integer>10800</integer>
 
