@@ -32,15 +32,7 @@
 				<key>clLink2</key>
 				<string>https://slz04.scholasticlearningzone.com/slz-portal/#/login3/AUS23XP</string>
 				
-				<key>sv_screenVideoEnabled</key>
-				<true/>
-				
-				<key>sv_url2MovieFile</key>
-				<string>screensavers</string>
-				
-				<key>kp_updateIntervalOfScreenSaverSlideShow</key>
-				<string>10</string>
-				
+			
 			</dict>
 
 
