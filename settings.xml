@@ -12,7 +12,10 @@
 				<string>http://library.carey.wa.edu.au/</string>
 				
 				<key>idleTime</key>
-				<integer>60</integer>
+				<integer>10800</integer>
+
+				<key>refreshTime</key>
+				<integer>600</integer>
 				
 				<key>customLinksEnabled</key>
 				<true/>
